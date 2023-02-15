@@ -20,7 +20,7 @@ public class Month_Details {
 	}
 	
 	
-	public static void getInfo(int x, String [] months, int dom[]) throws ArrayIndexOutOfBoundsException{
+	public static void getInfo(int x, String [] months, int dom[]){
 		try {
 			if(x<13) {
 				for(int i=0; i<=months.length; i++) {
